@@ -1,14 +1,12 @@
-import React from "react";
+import React from 'react';
 
-const Profile = () => {
-  return (
-    <div>
-      <h1>Hi, Bonny</h1>
-      <p>your email: bonny.los@gmail.com</p>
-      <p>your site: Los Angels</p>
-      <p>u active for: 12.12.2000</p>
-    </div>
-  );
-};
+const Profile = () => (
+  <section className="profile">
+    <h1 className="page-title">Profile</h1>
+    <p>Your email: bonny.los@gmail.com</p>
+    <p>Your city: Los Angeles</p>
+    <p>Active since: 12.12.2000</p>
+  </section>
+);
 
 export default Profile;

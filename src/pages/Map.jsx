@@ -1,14 +1,10 @@
-import React from "react";
+import React from 'react';
 
-const Map = () => {
-  return (
-    <div>
-      <h1>your map</h1>
-      <div>
-        <location></location>
-      </div>
-    </div>
-  );
-};
+const Map = () => (
+  <section className="map-page">
+    <h1 className="page-title">Map</h1>
+    <div className="map-placeholder">Map placeholder</div>
+  </section>
+);
 
 export default Map;
