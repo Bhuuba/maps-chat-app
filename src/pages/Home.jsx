@@ -1,23 +1,15 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Home = () => {
-  return (
-    <div>
-      <div>
-        <h1>Hello there!</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
-          accusantium numquam sapiente, illum maiores dignissimos quibusdam rem
-          modi eum nostrum autem ut eveniet iusto consectetur consequuntur
-          itaque quaerat libero iure.
-        </p>
-        <button>
-          <Link to="/register">Go to Register</Link>
-        </button>
-      </div>
-    </div>
-  );
-};
+const Home = () => (
+  <section className="home">
+    <h1 className="page-title">City Chat</h1>
+    <p className="text">
+      Join local conversations and discover chats near you. Choose a city on the
+      map or browse popular regions.
+    </p>
+    <Link className="btn" to="/register">Get Started</Link>
+  </section>
+);
 
 export default Home;

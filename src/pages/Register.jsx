@@ -1,18 +1,14 @@
-import React from "react";
+import React from 'react';
 
-const Register = () => {
-  return (
-    <div>
-      <form action="submit">
-        <ul>
-          <li>send me it</li>
-          <input type="email" placeholder="email" />
-          <input type="password" placeholder="password" />
-          <button type="submit">submit</button>
-        </ul>
-      </form>
-    </div>
-  );
-};
+const Register = () => (
+  <section className="register">
+    <h1 className="page-title">Create Account</h1>
+    <form className="form">
+      <input type="email" placeholder="Email" />
+      <input type="password" placeholder="Password" />
+      <button className="btn" type="submit">Submit</button>
+    </form>
+  </section>
+);
 
 export default Register;

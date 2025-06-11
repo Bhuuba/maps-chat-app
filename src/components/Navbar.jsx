@@ -1,11 +1,11 @@
-import React from "react";
-import NavLink from "./NavLink";
-const Navbar = () => {
-  return (
-    <div>
-      <NavLink />
-    </div>
-  );
-};
+import React from 'react';
+import NavLink from './NavLink';
+import '../styles/navbar.css';
+
+const Navbar = () => (
+  <nav className="navbar">
+    <NavLink />
+  </nav>
+);
 
 export default Navbar;
